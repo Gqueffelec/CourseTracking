@@ -64,4 +64,10 @@ public class Subject {
 		return this;
 	}
 
+	@Override
+	public String toString() {
+		return "Subject [id=" + id + ", name=" + name + ", description=" + description + ", state=" + state
+				+ ", dateLearned=" + dateLearned + "]";
+	}
+
 }
